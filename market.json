@@ -1,0 +1,18 @@
+{
+  "date": "2026-07-07",
+  "sections": [
+    {
+      "title": "XAUUSD 黃金",
+      "text": "Market Structure：等待方向確認\nLiquidity：觀察前高前低\nOrder Flow：等待 Delta 與價格同步"
+    },
+    {
+      "title": "NASDAQ",
+      "text": "Market Structure：觀察科技股動能\nVolume：確認量價是否同步"
+    },
+    {
+      "title": "BTC",
+      "text": "Liquidity：觀察壓力區突破有效性\n避免假突破"
+    }
+  ],
+  "line": "【AMRC 每日市場觀點】\n今日等待市場在關鍵位置給出確認訊號。"
+}
