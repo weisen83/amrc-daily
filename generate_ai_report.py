@@ -1,4 +1,4 @@
-name: AMRC Daily AI Update
+name: AMRC Daily AI
 
 on:
   schedule:
@@ -6,13 +6,9 @@ on:
   workflow_dispatch:
 
 jobs:
-  update:
+  generate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Fetch Market
-        run: python automation/fetch_market.py
-      - name: Generate AI Report
-        run: python automation/generate_ai_report.py
-      - name: Save
-        run: echo "Update completed"
+      - run: python automation/fetch_market.py
+      - run: python automation/generate_ai_report.py

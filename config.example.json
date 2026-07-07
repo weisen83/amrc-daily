@@ -1,0 +1,3 @@
+# AMRC Market Data Collector
+# Connect market API here.
+print("Market collector ready")
